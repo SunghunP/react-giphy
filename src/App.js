@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
+import Form from './components/Form'
+import Gif from './Gif'
 
 function App() {
   const [image, setImage] = useState(null)
 
   return (
     <div className="App">
-
+      <Gif />
+      <Form />
     </div>
   );
 }
