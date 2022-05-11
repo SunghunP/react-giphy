@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div>
       <form>
-        <button></button>
+        <button type="submit">New Gif</button>
       </form>
     </div>
   );
