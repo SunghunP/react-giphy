@@ -1,12 +1,17 @@
-const Form = () => {
-  const handleClick = () => {};
+const Form = (props) => {
+  const handleSubmit = (event) => {
+    // prevent refresh
+    event.preventDefault();
+    // pass searchTerm to get Movie
+    props.getGif();
+  };
 
   return (
-    <div>
-      <form>
+    <>
+      <form onSubmit={handleSubmit}>
         <button type="submit">New Gif</button>
       </form>
-    </div>
+    </>
   );
 };
 
