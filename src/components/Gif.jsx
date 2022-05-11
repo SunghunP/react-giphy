@@ -1,5 +1,5 @@
 const Gif = () => {
-    return <div>Gif</div>
-}
+  return <div>Gif</div>;
+};
 
-export default Gif
+export default Gif;

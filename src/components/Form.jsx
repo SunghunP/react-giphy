@@ -1,5 +1,13 @@
-const Form  = () => {
-    return <div>Form</div>
-}
+const Form = () => {
+  const handleClick = () => {};
 
-export default Form
+  return (
+    <div>
+      <form>
+        <button></button>
+      </form>
+    </div>
+  );
+};
+
+export default Form;
