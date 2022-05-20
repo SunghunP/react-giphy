@@ -1,6 +1,9 @@
 # React-Giphy
 This is a small project to show how to use an API, fetch requests, and use the response in React.
 
+## React component structure
+![React component structure picture](./public/react-giphy.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
